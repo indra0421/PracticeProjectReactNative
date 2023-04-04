@@ -9,7 +9,7 @@ import MyTask from '../components/MySpaceComponents/MyTask'
 
 const MySpace = () => {
     return (
-        <ScrollView nestedScrollEnabled={true} style={{ backgroundColor: "#f6f7f8", height: "100%", marginTop: 30 }} >
+        <ScrollView nestedScrollEnabled={true} style={{ backgroundColor: "#f6f7f8", height: "100%", marginTop: 5 }} >
             <Header />
             <Description />
             <Attendance />
